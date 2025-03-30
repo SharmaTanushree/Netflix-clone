@@ -12,7 +12,7 @@ const Browse = () => {
   usePopularMovies();
   const showGptSearch = useSelector(store=>store.gptSearch.showGptSearch);
   return (
-    <div className="bg-black" >
+    <div >
      <Header />
      {
      showGptSearch ? (<GptSearchPage />): 
